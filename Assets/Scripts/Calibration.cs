@@ -35,6 +35,8 @@ public class Calibration : MonoBehaviour
     void Start()
     {
 
+        print(Application.persistentDataPath);
+
         balloons = new GameObject[6];
 
         audioSource = GetComponent<AudioSource>();
@@ -47,8 +49,27 @@ public class Calibration : MonoBehaviour
 
     }
 
+    void KeyEvent()
+    {
+        if (Input.GetKeyDown("k"))
+            OnMovement("SR");
+        if (Input.GetKeyDown("g"))
+            OnMovement("SL");
+        if (Input.GetKeyDown("u"))
+            OnMovement("UR");
+        if (Input.GetKeyDown("y"))
+            OnMovement("UL");
+        if (Input.GetKeyDown("n"))
+            OnMovement("DR");
+        if (Input.GetKeyDown("b"))
+            OnMovement("DL");
+
+    }
+
     void Timer()
     {
+        KeyEvent();
+
         foreach (GameObject balloon in balloons)
         {
             MoveBalloon(balloon);

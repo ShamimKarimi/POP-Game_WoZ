@@ -46,10 +46,29 @@ public class Universe : MonoBehaviour
 
     private float nextActionTime;
 
-    
+    void KeyEvent()
+    {
+        if (Input.GetKeyDown("k"))
+            OnMovement("SR");
+        if (Input.GetKeyDown("g"))
+            OnMovement("SL");
+        if (Input.GetKeyDown("u"))
+            OnMovement("UR");
+        if (Input.GetKeyDown("y"))
+            OnMovement("UL");
+        if (Input.GetKeyDown("n"))
+            OnMovement("DR");
+        if (Input.GetKeyDown("b"))
+            OnMovement("DL");
+
+    }
+
 
     void Timer()
     {
+
+        KeyEvent();
+
         foreach (GameObject balloon in balloons)
         {
             MoveBalloon(balloon);
@@ -143,6 +162,7 @@ public class Universe : MonoBehaviour
         audioSource.PlayOneShot(blop, 0.7F);
         return Instantiate(original, new Vector3(positionX, positionY, 0), Quaternion.identity) as GameObject;
     }
+
 
     public void OnMovement(string position)
     {

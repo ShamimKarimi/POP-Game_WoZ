@@ -45,8 +45,29 @@ public class Universe2 : MonoBehaviour
 
     private float nextActionTime;
 
+    void KeyEvent()
+    {
+        if (Input.GetKeyDown("k"))
+            OnMovement("SR");
+        if (Input.GetKeyDown("g"))
+            OnMovement("SL");
+        if (Input.GetKeyDown("u"))
+            OnMovement("UR");
+        if (Input.GetKeyDown("y"))
+            OnMovement("UL");
+        if (Input.GetKeyDown("n"))
+            OnMovement("DR");
+        if (Input.GetKeyDown("b"))
+            OnMovement("DL");
+
+    }
+
     void Timer()
     {
+
+        KeyEvent();
+
+
         for (int i = 0; i < balloons.Length; i++)
         {
             MoveBalloon(balloons[i], i);

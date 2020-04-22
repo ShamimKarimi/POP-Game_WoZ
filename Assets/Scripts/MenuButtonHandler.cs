@@ -7,12 +7,6 @@ public class MenuButtonHandler : MonoBehaviour
 {
     public void LoadMenu()
     {
-        GameObject udpGameObject = GameObject.Find("UDP");
-        if (udpGameObject != null)
-        {
-            UDP.UDPReceiver udpReceiver = (UDP.UDPReceiver)udpGameObject.GetComponent(typeof(UDP.UDPReceiver));
-            udpReceiver.CloseSocket();
-        }
         GameObject mainCamera = GameObject.Find("Main Camera");
         WebcamStream webcamStream = (WebcamStream)mainCamera.GetComponent(typeof(WebcamStream));
         webcamStream.StopStreaming();

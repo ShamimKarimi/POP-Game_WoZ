@@ -44,6 +44,7 @@ public class Universe3 : MonoBehaviour
     [SerializeField] private Game3 game3Data = new Game3();
 
 
+
     // Start is called before the first frame update
     void Start()
     {
@@ -111,8 +112,27 @@ public class Universe3 : MonoBehaviour
 
     private float nextActionTime;
 
+    void KeyEvent()
+    {
+        if (Input.GetKeyDown("k"))
+            OnMovement("SR");
+        if (Input.GetKeyDown("g"))
+            OnMovement("SL");
+        if (Input.GetKeyDown("u"))
+            OnMovement("UR");
+        if (Input.GetKeyDown("y"))
+            OnMovement("UL");
+        if (Input.GetKeyDown("n"))
+            OnMovement("DR");
+        if (Input.GetKeyDown("b"))
+            OnMovement("DL");
+
+    }
+
     void Timer()
     {
+        KeyEvent();
+
         for (int i = 0; i < 6; i++)
         {
             if (balloons[i] != null)
