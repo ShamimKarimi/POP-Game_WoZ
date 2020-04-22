@@ -1,0 +1,38 @@
+﻿<Properties StartupConfiguration="{454F68FC-AD6A-3CBB-CCBF-E94441C2F9B0}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/UDPSocket.cs">
+    <Files>
+      <File FileName="Assets/Scripts/Global.cs" Line="17" Column="52" />
+      <File FileName="Assets/Scripts/Calibration.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/1/Universe.cs" Line="11" Column="35" />
+      <File FileName="Assets/Scripts/2/Universe2.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/3/Universe3.cs" Line="467" Column="10" />
+      <File FileName="Assets/Scripts/4/Universe4.cs" Line="466" Column="14" />
+      <File FileName="Assets/Scripts/MenuButtonHandler.cs" Line="22" Column="1" />
+      <File FileName="Assets/Scripts/UDPReceiver.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/UDPSocket.cs" Line="1" Column="1" />
+      <File FileName="Assets/CalibrationNextSceneButton.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Menu/ButtonHandler.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/WebcamStream.cs" Line="30" Column="44" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="POP-Game" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="UDPSocket.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="0f4ece95-b964-4fb0-b629-c932fbc8f13d" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

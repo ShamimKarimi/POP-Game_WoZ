@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/old scenes/SampleScene.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 0
+    path: Assets/Scenes/old scenes/1_Calibration.unity
+    guid: deaf795e25158ea49bb7ab7f5fc64ab1
+  - enabled: 0
+    path: Assets/Scenes/old scenes/2_BrickWall.unity
+    guid: 12c9e6fcb045aaf409a00ad1797ac013
+  - enabled: 0
+    path: Assets/Scenes/old scenes/3_Fence.unity
+    guid: 5210dc4d02b85f141a510081b959044f
+  - enabled: 0
+    path: Assets/Scenes/old scenes/4_MetalWall.unity
+    guid: ab1a00ef741632c46a9101e5037a3cea
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 808e1251db7f79740b6a27d0e1b7fd8e
+  - enabled: 1
+    path: Assets/Scenes/1.unity
+    guid: 317d832893f1b624297e2a5f92ce8ea6
+  - enabled: 1
+    path: Assets/Scenes/4.unity
+    guid: 2be5edada0a416b4a938e6087b7638fd
+  - enabled: 1
+    path: Assets/Scenes/3.unity
+    guid: 03e1cf3cc3530bf4ba083e9eaf586589
+  - enabled: 1
+    path: Assets/Scenes/2.unity
+    guid: ebcd5c863dadce647acfb4d81967a1d8
+  - enabled: 1
+    path: Assets/Scenes/Calibration.unity
+    guid: bdc46692111482c4194a38e7464d62f4
+  m_configObjects: {}
